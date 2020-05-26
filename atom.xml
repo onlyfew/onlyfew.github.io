@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-21T11:00:15.037Z</updated>
+  <updated>2020-05-26T11:29:15.161Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,48 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/05/21/hello-world/"/>
-    <id>http://yoursite.com/2020/05/21/hello-world/</id>
-    <published>2020-05-21T11:00:15.037Z</published>
-    <updated>2020-05-21T11:00:15.037Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>【笔记】打造品效合一的营销体系1：营销的基石-找到消费者任务</title>
     <link href="http://yoursite.com/2020/04/12/Marketing-System-01/"/>
     <id>http://yoursite.com/2020/04/12/Marketing-System-01/</id>
     <published>2020-04-12T15:54:02.000Z</published>
-    <updated>2020-05-26T10:48:06.067Z</updated>
+    <updated>2020-05-26T11:29:15.161Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="零、引子"><a href="#零、引子" class="headerlink" title="零、引子"></a>零、引子</h2><h3 id="0-1-营销的本质"><a href="#0-1-营销的本质" class="headerlink" title="0.1 营销的本质"></a>0.1 营销的本质</h3><p><strong>营销的本质是：建立产品和需求的连接。</strong></p><p>知识的诅咒：对一个事情了解的越多，越不能找到初心，越不能站着小白的角度去解释清楚。</p><h3 id="0-2-传统的营销理论"><a href="#0-2-传统的营销理论" class="headerlink" title="0.2 传统的营销理论"></a>0.2 传统的营销理论</h3><ul><li>4P理论：本来不是为了做营销沟通设计的</li><li>挖掘产品和竞品的区别</li></ul><p>以上都是B端视角，而不是用户端视角</p><ul><li>B端视角：企业商业的视角，我有什么特别的？市场上哪里有空白？</li><li>用户视角：这个产品对我有什么用？能帮我解决什么问题？</li></ul><h2 id="一、消费者任务"><a href="#一、消费者任务" class="headerlink" title="一、消费者任务"></a>一、消费者任务</h2><h3 id="1-1-用户视角是什么"><a href="#1-1-用户视角是什么" class="headerlink" title="1.1 用户视角是什么"></a>1.1 用户视角是什么</h3><p>用户视角 = 找到消费者任务 = <strong>找到你的产品是帮助用户完成日常生活中的哪个任务</strong></p><h3 id="1-2-消费者任务的核心三要素"><a href="#1-2-消费者任务的核心三要素" class="headerlink" title="1.2 消费者任务的核心三要素"></a>1.2 消费者任务的核心三要素</h3><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-1.png?imageMogr/auto-orient/rotate/270" alt=""></p><ol><li>用户画像<br> a. 你的用户是谁？长什么样？</li><li>场景和痛点/爽点<br> a. 他在什么情况下遇到什么问题？–现状<br> b. 他希望如何解决？–理想<br> c. 现状和理想情况的差距在哪里？</li><li>产品特点<br> a. 你的产品有什么功能、优势？<br> b. 你的产品能解决用户痛点，甚至达到爽点吗？</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-2.png?imageMogr/auto-orient/rotate/270" alt=""></p><ol><li>对谁说：用户画像；</li><li>怎么说：场景；</li><li>说什么：产品重点；</li></ol><h3 id="1-3-如何找到产品特点？"><a href="#1-3-如何找到产品特点？" class="headerlink" title="1.3 如何找到产品特点？"></a>1.3 如何找到产品特点？</h3><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-3.png?imageMogr/auto-orient/rotate/270" alt=""></p><h3 id="1-4-如何找到用户画像和场景？"><a href="#1-4-如何找到用户画像和场景？" class="headerlink" title="1.4 如何找到用户画像和场景？"></a>1.4 如何找到用户画像和场景？</h3><h4 id="1-4-0-用户画像是什么"><a href="#1-4-0-用户画像是什么" class="headerlink" title="1.4.0 用户画像是什么"></a>1.4.0 用户画像是什么</h4><p>用户画像是清晰的描述使用你产品的用户，他们大概是谁，长什么样，细化什么。包括基本属性、社会/生活属性、行为习惯、兴趣偏好、心理属性等<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-4.png?imageMogr/auto-orient/rotate/270" alt=""><br>每类属性包括的常见元素有：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-5.png?imageMogr/auto-orient/rotate/270" alt=""><br>示例：运动功能性饮料的用户画像是：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-6.png?imageMogr/auto-orient/rotate/270" alt=""><br>获取方法有两种：桌面调研和用户访谈<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-7.png?imageMogr/auto-orient/rotate/270" alt=""><br>刀姐建议多用用户访谈法。</p><h4 id="1-4-1-方法1：桌面调研"><a href="#1-4-1-方法1：桌面调研" class="headerlink" title="1.4.1 方法1：桌面调研"></a>1.4.1 方法1：桌面调研</h4><p>桌面调研的两个步骤：</p><ol><li>找到潜在用户；</li><li>收集信息；</li></ol><p>找到潜在用户的两个方法：</p><ol><li>从企业核心用户画像倒推（贡献营收或活跃的用户）</li><li>去相似产品/用户喜欢的垂直KOL那里倒推人群</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-9.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>收集潜在用户的哪些信息？基于互联网网民的消费路径AISPS<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-10.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>前3步可获得用户画像信息，后两步可分析场景痛点爽点信息，如下图<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-11.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>涉及的平台有微信、微博、垂直KOL（小红书等）、搜索引擎、问答网站（知乎等）、各类电商平台及旗舰店、社交论坛等。<br>从以上平台上更快获取信息的工具有：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-12.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>案例：一叶子 面膜<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-13.png?imageMogr/auto-orient/rotate/270" alt=""></p><h4 id="1-4-2-方法2：用户访谈"><a href="#1-4-2-方法2：用户访谈" class="headerlink" title="1.4.2 方法2：用户访谈"></a>1.4.2 方法2：用户访谈</h4><p><strong>1.用户访谈五步走</strong></p><ol><li>定义潜在用户（和桌面调研相同，下略）</li><li>找到访谈对象并分组</li><li>设计访谈问卷</li><li>执行访谈</li><li>整理信息</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-14.png?imageMogr/auto-orient/rotate/270" alt=""></p><p><strong>2.找到访谈对象</strong></p><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-15.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>“门店蹲守”法中通过填写问卷来筛选潜在用户，潜在用户也要符合一定的要求（分组要求）<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-16.png?imageMogr/auto-orient/rotate/270" alt=""><br>当然是需要给访谈对象送礼物的。</p><p><strong>3.设计用户访谈问卷</strong><br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-17.png?imageMogr/auto-orient/rotate/270" alt=""><br>目的是通过访谈得到用户画像和场景需求、痛点、爽点。基于此目的去设计访谈问题。</p><p>以三节课为例，设计访谈问卷如下：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-18.png?imageMogr/auto-orient/rotate/270" alt=""></p><p><strong>4.执行访谈</strong><br>访谈小组人员配置及分工：</p><ul><li>主持人：主持人要以倾听为主，不能是强势性格的人，多引导用户发言，并能引导说出真话</li><li>专业速记人员：记录所有信息，方便后期整理，如果是主持人记录，一是会分神，二是会有偏颇</li><li>观察同事：观察用户的神情、姿态、动作、态度，并可对主持人进行补充，专业的访谈室观察同事可以不被用户看到，产品运营品牌等岗位同事都可同时观察</li></ul><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-19.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>一些需要注意的问题：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-20.png?imageMogr/auto-orient/rotate/270" alt=""></p><blockquote><p>深挖用户原因和动机的例子：</p><ul><li>为什么用这款面膜？因为好用。</li><li>为什么觉得好用？因为补水</li><li>为什么觉得补水很重要？因为皮肤常年干性经常会掉皮</li><li>为什么常年掉皮会困扰你呢？因为我是做*工作的，掉皮被客户看到会影响自己自信心的。</li><li>真正的痛点是什么？</li></ul></blockquote><p><strong>5.整理信息</strong><br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-21.png?imageMogr/auto-orient/rotate/270" alt=""></p><h3 id="1-5-基于用户访谈的方法找到消费者任务的综合案例"><a href="#1-5-基于用户访谈的方法找到消费者任务的综合案例" class="headerlink" title="1.5 基于用户访谈的方法找到消费者任务的综合案例"></a>1.5 基于用户访谈的方法找到消费者任务的综合案例</h3><p>扫码关注公众号“支离书”，回复“共享衣橱”可获得案例内容。<br><img src="http://image.onlyfew.cn/info/mp_zhilishu.jpg" alt=""></p><h2 id="二、说明"><a href="#二、说明" class="headerlink" title="二、说明"></a>二、说明</h2><p>本笔记来自三节课<a href="https://www.sanjieke.cn/course/detail/2/wap/15304941" target="_blank" rel="noopener">《打造品效合一的营销体系》</a>，课程讲师为：刀姐Doris。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="零、引子"><a href="#零、引子" class="headerlink" title="零、引子"></a>零、引子</h2><h3 id="0-1-营销的本质"><a href="#0-1-营销的本质" class="headerlink" title="0.1 营销的本质"></a>0.1 营销的本质</h3><p><strong>营销的本质是：建立产品和需求的连接。</strong></p><p>知识的诅咒：对一个事情了解的越多，越不能找到初心，越不能站着小白的角度去解释清楚。</p><a id="more"></a><h3 id="0-2-传统的营销理论"><a href="#0-2-传统的营销理论" class="headerlink" title="0.2 传统的营销理论"></a>0.2 传统的营销理论</h3><ul><li>4P理论：本来不是为了做营销沟通设计的</li><li>挖掘产品和竞品的区别</li></ul><p>以上都是B端视角，而不是用户端视角</p><ul><li>B端视角：企业商业的视角，我有什么特别的？市场上哪里有空白？</li><li>用户视角：这个产品对我有什么用？能帮我解决什么问题？</li></ul><h2 id="一、消费者任务"><a href="#一、消费者任务" class="headerlink" title="一、消费者任务"></a>一、消费者任务</h2><h3 id="1-1-用户视角是什么"><a href="#1-1-用户视角是什么" class="headerlink" title="1.1 用户视角是什么"></a>1.1 用户视角是什么</h3><p>用户视角 = 找到消费者任务 = <strong>找到你的产品是帮助用户完成日常生活中的哪个任务</strong></p><h3 id="1-2-消费者任务的核心三要素"><a href="#1-2-消费者任务的核心三要素" class="headerlink" title="1.2 消费者任务的核心三要素"></a>1.2 消费者任务的核心三要素</h3><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-1.png?imageMogr/auto-orient/rotate/270" alt=""></p><ol><li>用户画像<br> a. 你的用户是谁？长什么样？</li><li>场景和痛点/爽点<br> a. 他在什么情况下遇到什么问题？–现状<br> b. 他希望如何解决？–理想<br> c. 现状和理想情况的差距在哪里？</li><li>产品特点<br> a. 你的产品有什么功能、优势？<br> b. 你的产品能解决用户痛点，甚至达到爽点吗？</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-2.png?imageMogr/auto-orient/rotate/270" alt=""></p><ol><li>对谁说：用户画像；</li><li>怎么说：场景；</li><li>说什么：产品重点；</li></ol><h3 id="1-3-如何找到产品特点？"><a href="#1-3-如何找到产品特点？" class="headerlink" title="1.3 如何找到产品特点？"></a>1.3 如何找到产品特点？</h3><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-3.png?imageMogr/auto-orient/rotate/270" alt=""></p><h3 id="1-4-如何找到用户画像和场景？"><a href="#1-4-如何找到用户画像和场景？" class="headerlink" title="1.4 如何找到用户画像和场景？"></a>1.4 如何找到用户画像和场景？</h3><h4 id="1-4-0-用户画像是什么"><a href="#1-4-0-用户画像是什么" class="headerlink" title="1.4.0 用户画像是什么"></a>1.4.0 用户画像是什么</h4><p>用户画像是清晰的描述使用你产品的用户，他们大概是谁，长什么样，细化什么。包括基本属性、社会/生活属性、行为习惯、兴趣偏好、心理属性等<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-4.png?imageMogr/auto-orient/rotate/270" alt=""><br>每类属性包括的常见元素有：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-5.png?imageMogr/auto-orient/rotate/270" alt=""><br>示例：运动功能性饮料的用户画像是：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-6.png?imageMogr/auto-orient/rotate/270" alt=""><br>获取方法有两种：桌面调研和用户访谈<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-7.png?imageMogr/auto-orient/rotate/270" alt=""><br>刀姐建议多用用户访谈法。</p><h4 id="1-4-1-方法1：桌面调研"><a href="#1-4-1-方法1：桌面调研" class="headerlink" title="1.4.1 方法1：桌面调研"></a>1.4.1 方法1：桌面调研</h4><p>桌面调研的两个步骤：</p><ol><li>找到潜在用户；</li><li>收集信息；</li></ol><p>找到潜在用户的两个方法：</p><ol><li>从企业核心用户画像倒推（贡献营收或活跃的用户）</li><li>去相似产品/用户喜欢的垂直KOL那里倒推人群</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-9.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>收集潜在用户的哪些信息？基于互联网网民的消费路径AISPS<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-10.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>前3步可获得用户画像信息，后两步可分析场景痛点爽点信息，如下图<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-11.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>涉及的平台有微信、微博、垂直KOL（小红书等）、搜索引擎、问答网站（知乎等）、各类电商平台及旗舰店、社交论坛等。<br>从以上平台上更快获取信息的工具有：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-12.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>案例：一叶子 面膜<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-13.png?imageMogr/auto-orient/rotate/270" alt=""></p><h4 id="1-4-2-方法2：用户访谈"><a href="#1-4-2-方法2：用户访谈" class="headerlink" title="1.4.2 方法2：用户访谈"></a>1.4.2 方法2：用户访谈</h4><p><strong>1.用户访谈五步走</strong></p><ol><li>定义潜在用户（和桌面调研相同，下略）</li><li>找到访谈对象并分组</li><li>设计访谈问卷</li><li>执行访谈</li><li>整理信息</li></ol><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-14.png?imageMogr/auto-orient/rotate/270" alt=""></p><p><strong>2.找到访谈对象</strong></p><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-15.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>“门店蹲守”法中通过填写问卷来筛选潜在用户，潜在用户也要符合一定的要求（分组要求）<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-16.png?imageMogr/auto-orient/rotate/270" alt=""><br>当然是需要给访谈对象送礼物的。</p><p><strong>3.设计用户访谈问卷</strong><br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-17.png?imageMogr/auto-orient/rotate/270" alt=""><br>目的是通过访谈得到用户画像和场景需求、痛点、爽点。基于此目的去设计访谈问题。</p><p>以三节课为例，设计访谈问卷如下：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-18.png?imageMogr/auto-orient/rotate/270" alt=""></p><p><strong>4.执行访谈</strong><br>访谈小组人员配置及分工：</p><ul><li>主持人：主持人要以倾听为主，不能是强势性格的人，多引导用户发言，并能引导说出真话</li><li>专业速记人员：记录所有信息，方便后期整理，如果是主持人记录，一是会分神，二是会有偏颇</li><li>观察同事：观察用户的神情、姿态、动作、态度，并可对主持人进行补充，专业的访谈室观察同事可以不被用户看到，产品运营品牌等岗位同事都可同时观察</li></ul><p><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-19.png?imageMogr/auto-orient/rotate/270" alt=""></p><p>一些需要注意的问题：<br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-20.png?imageMogr/auto-orient/rotate/270" alt=""></p><blockquote><p>深挖用户原因和动机的例子：</p><ul><li>为什么用这款面膜？因为好用。</li><li>为什么觉得好用？因为补水</li><li>为什么觉得补水很重要？因为皮肤常年干性经常会掉皮</li><li>为什么常年掉皮会困扰你呢？因为我是做*工作的，掉皮被客户看到会影响自己自信心的。</li><li>真正的痛点是什么？</li></ul></blockquote><p><strong>5.整理信息</strong><br><img src="http://image.onlyfew.cn/yingxiao/pinxiaoheyi-21.png?imageMogr/auto-orient/rotate/270" alt=""></p><h3 id="1-5-基于用户访谈的方法找到消费者任务的综合案例"><a href="#1-5-基于用户访谈的方法找到消费者任务的综合案例" class="headerlink" title="1.5 基于用户访谈的方法找到消费者任务的综合案例"></a>1.5 基于用户访谈的方法找到消费者任务的综合案例</h3><p>扫码关注公众号“支离书”，回复“共享衣橱”可获得案例内容。<br><img src="http://image.onlyfew.cn/info/mp_zhilishu.jpg" alt=""></p><h2 id="二、说明"><a href="#二、说明" class="headerlink" title="二、说明"></a>二、说明</h2><p>本笔记来自三节课<a href="https://www.sanjieke.cn/course/detail/2/wap/15304941" target="_blank" rel="noopener">《打造品效合一的营销体系》</a>，课程讲师为：刀姐Doris。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;零、引子&quot;&gt;&lt;a href=&quot;#零、引子&quot; class=&quot;headerlink&quot; title=&quot;零、引子&quot;&gt;&lt;/a&gt;零、引子&lt;/h2&gt;&lt;h3 id=&quot;0-1-营销的本质&quot;&gt;&lt;a href=&quot;#0-1-营销的本质&quot; class=&quot;headerlink&quot; title=
-      
+      &lt;h2 id=&quot;零、引子&quot;&gt;&lt;a href=&quot;#零、引子&quot; class=&quot;headerlink&quot; title=&quot;零、引子&quot;&gt;&lt;/a&gt;零、引子&lt;/h2&gt;&lt;h3 id=&quot;0-1-营销的本质&quot;&gt;&lt;a href=&quot;#0-1-营销的本质&quot; class=&quot;headerlink&quot; title=&quot;0.1 营销的本质&quot;&gt;&lt;/a&gt;0.1 营销的本质&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;营销的本质是：建立产品和需求的连接。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;知识的诅咒：对一个事情了解的越多，越不能找到初心，越不能站着小白的角度去解释清楚。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="营销" scheme="http://yoursite.com/categories/%E8%90%A5%E9%94%80/"/>
+    
     
       <category term="营销" scheme="http://yoursite.com/tags/%E8%90%A5%E9%94%80/"/>
+    
+      <category term="本质" scheme="http://yoursite.com/tags/%E6%9C%AC%E8%B4%A8/"/>
+    
+      <category term="用户画像" scheme="http://yoursite.com/tags/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/"/>
+    
+      <category term="用户访谈" scheme="http://yoursite.com/tags/%E7%94%A8%E6%88%B7%E8%AE%BF%E8%B0%88/"/>
+    
+      <category term="场景" scheme="http://yoursite.com/tags/%E5%9C%BA%E6%99%AF/"/>
+    
+      <category term="道" scheme="http://yoursite.com/tags/%E9%81%93/"/>
+    
+      <category term="术" scheme="http://yoursite.com/tags/%E6%9C%AF/"/>
     
   </entry>
   
@@ -67,22 +57,33 @@
     <link href="http://yoursite.com/2020/02/05/picture-bed/"/>
     <id>http://yoursite.com/2020/02/05/picture-bed/</id>
     <published>2020-02-05T00:18:40.000Z</published>
-    <updated>2020-05-26T10:50:21.070Z</updated>
+    <updated>2020-05-26T11:10:00.122Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h2><p>永澄老师在<a href="http://kt.runwith.cc/yryc/4-recommendation/picstore" target="_blank" rel="noopener">搞定一个图床</a>中选用的是收费版的阿里云OSS和iPic工具，此两者均为收费工具，土豪随意，我探索了基于七牛云免费额度和PicGo开源工具的免费方案。<br>七牛云免费额度如下，一般情况下够用了：<br><img src="http://image.onlyfew.cn/bitcron/20200205140329.png" alt=""></p><h2 id="二、配置方法"><a href="#二、配置方法" class="headerlink" title="二、配置方法"></a>二、配置方法</h2><h3 id="2-1-七牛云配置过程"><a href="#2-1-七牛云配置过程" class="headerlink" title="2.1 七牛云配置过程"></a>2.1 七牛云配置过程</h3><ol><li>注册账号</li><li>个人账号需认证身份，约1小时内即可认证通过</li><li>进入对象存储管理页面，如下图<br> <img src="http://image.onlyfew.cn/bitcron/20200205140630.png" alt=""></li><li>新建空间，上图中已经有我之前创建的一个空间<br> <img src="http://image.onlyfew.cn/bitcron/20200205141117.png" alt=""></li><li>进入空间概览页面，获取CDN测试域名备用<br> <img src="http://image.onlyfew.cn/bitcron/20200205143107.png" alt=""></li><li>进入个人中心-密钥管理界面，获取到AK和SK备用<br> <img src="http://image.onlyfew.cn/bitcron/20200205142757.png" alt=""></li></ol><h3 id="2-2-PicGo配置过程"><a href="#2-2-PicGo配置过程" class="headerlink" title="2.2 PicGo配置过程"></a>2.2 PicGo配置过程</h3><ol><li>访问<a href="https://molunerfinn.com/PicGo/" target="_blank" rel="noopener">PicGo官网</a>可链接到<a href="https://github.com/Molunerfinn/picgo/releases" target="_blank" rel="noopener">下载PicGo页面</a>，下载并安装</li><li>进入设置页面，选择七牛云图床<br><img src="http://image.onlyfew.cn/bitcron/20200205143350.png" alt=""><blockquote><ul><li>AK和SK填写上面密钥管理中获取到的内容</li><li>空间名填写上面创建空间的空间名</li><li>访问网址为上面的CDN测试域名</li><li>存储区域：华东为z0，华北为z1</li><li>网址后缀可选</li><li>存储路径可根据情况设置，会变成图片的一级文件夹</li></ul></blockquote></li></ol><h2 id="三、图床使用"><a href="#三、图床使用" class="headerlink" title="三、图床使用"></a>三、图床使用</h2><p>支持拖拽上传、快捷键上传剪贴板图片等功能，非常易用，具体可参见<a href="https://molunerfinn.com/PicGo/" target="_blank" rel="noopener">PicGo官网</a></p><h2 id="四、参考资料"><a href="#四、参考资料" class="headerlink" title="四、参考资料"></a>四、参考资料</h2><ul><li>易仁永澄老师写的<a href="http://kt.runwith.cc/yryc/4-recommendation/picstore" target="_blank" rel="noopener">搞定一个图床</a>，整个专题都值得一看</li><li><a href="https://www.jianshu.com/p/0997d0d15e55" target="_blank" rel="noopener">如何用七牛和picGO设置免费图床</a></li><li>七牛存储区域列表<br>  <img src="http://image.onlyfew.cn/bitcron/20200205144615.png" alt=""></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h2><p>永澄老师在<a href="http://kt.runwith.cc/yryc/4-recommendation/picstore" target="_blank" rel="noopener">搞定一个图床</a>中选用的是收费版的阿里云OSS和iPic工具，此两者均为收费工具，土豪随意，我探索了基于七牛云免费额度和PicGo开源工具的免费方案。<br>七牛云免费额度如下，一般情况下够用了：<br><img src="http://image.onlyfew.cn/bitcron/20200205140329.png" alt=""></p><a id="more"></a><h2 id="二、配置方法"><a href="#二、配置方法" class="headerlink" title="二、配置方法"></a>二、配置方法</h2><h3 id="2-1-七牛云配置过程"><a href="#2-1-七牛云配置过程" class="headerlink" title="2.1 七牛云配置过程"></a>2.1 七牛云配置过程</h3><ol><li>注册账号</li><li>个人账号需认证身份，约1小时内即可认证通过</li><li>进入对象存储管理页面，如下图<br> <img src="http://image.onlyfew.cn/bitcron/20200205140630.png" alt=""></li><li>新建空间，上图中已经有我之前创建的一个空间<br> <img src="http://image.onlyfew.cn/bitcron/20200205141117.png" alt=""></li><li>进入空间概览页面，获取CDN测试域名备用<br> <img src="http://image.onlyfew.cn/bitcron/20200205143107.png" alt=""></li><li>进入个人中心-密钥管理界面，获取到AK和SK备用<br> <img src="http://image.onlyfew.cn/bitcron/20200205142757.png" alt=""></li></ol><h3 id="2-2-PicGo配置过程"><a href="#2-2-PicGo配置过程" class="headerlink" title="2.2 PicGo配置过程"></a>2.2 PicGo配置过程</h3><ol><li>访问<a href="https://molunerfinn.com/PicGo/" target="_blank" rel="noopener">PicGo官网</a>可链接到<a href="https://github.com/Molunerfinn/picgo/releases" target="_blank" rel="noopener">下载PicGo页面</a>，下载并安装</li><li>进入设置页面，选择七牛云图床<br><img src="http://image.onlyfew.cn/bitcron/20200205143350.png" alt=""><blockquote><ul><li>AK和SK填写上面密钥管理中获取到的内容</li><li>空间名填写上面创建空间的空间名</li><li>访问网址为上面的CDN测试域名</li><li>存储区域：华东为z0，华北为z1</li><li>网址后缀可选</li><li>存储路径可根据情况设置，会变成图片的一级文件夹</li></ul></blockquote></li></ol><h2 id="三、图床使用"><a href="#三、图床使用" class="headerlink" title="三、图床使用"></a>三、图床使用</h2><p>支持拖拽上传、快捷键上传剪贴板图片等功能，非常易用，具体可参见<a href="https://molunerfinn.com/PicGo/" target="_blank" rel="noopener">PicGo官网</a></p><h2 id="四、参考资料"><a href="#四、参考资料" class="headerlink" title="四、参考资料"></a>四、参考资料</h2><ul><li>易仁永澄老师写的<a href="http://kt.runwith.cc/yryc/4-recommendation/picstore" target="_blank" rel="noopener">搞定一个图床</a>，整个专题都值得一看</li><li><a href="https://www.jianshu.com/p/0997d0d15e55" target="_blank" rel="noopener">如何用七牛和picGO设置免费图床</a></li><li>七牛存储区域列表<br>  <img src="http://image.onlyfew.cn/bitcron/20200205144615.png" alt=""></li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h2&gt;&lt;p&gt;永澄老师在&lt;a href=&quot;http://kt.runwith.cc/yryc/4-recommendation/picst
-      
+      &lt;h2 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h2&gt;&lt;p&gt;永澄老师在&lt;a href=&quot;http://kt.runwith.cc/yryc/4-recommendation/picstore&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;搞定一个图床&lt;/a&gt;中选用的是收费版的阿里云OSS和iPic工具，此两者均为收费工具，土豪随意，我探索了基于七牛云免费额度和PicGo开源工具的免费方案。&lt;br&gt;七牛云免费额度如下，一般情况下够用了：&lt;br&gt;&lt;img src=&quot;http://image.onlyfew.cn/bitcron/20200205140329.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
     
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="PicGo" scheme="http://yoursite.com/tags/PicGo/"/>
+    
+      <category term="图床" scheme="http://yoursite.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="七牛云" scheme="http://yoursite.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+    
+      <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="免费" scheme="http://yoursite.com/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+      <category term="器" scheme="http://yoursite.com/tags/%E5%99%A8/"/>
     
   </entry>
   
@@ -91,26 +92,56 @@
     <link href="http://yoursite.com/2015/12/05/openrestry-install-in-mac/"/>
     <id>http://yoursite.com/2015/12/05/openrestry-install-in-mac/</id>
     <published>2015-12-05T05:44:00.000Z</published>
-    <updated>2020-05-26T10:47:38.371Z</updated>
+    <updated>2020-05-26T11:30:00.168Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><ul><li><p>下载源码包，解压，并进入到解压目录</p></li><li><p>执行下面的命令编译</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/opt/openresty --with-cc-opt=<span class="string">"-I/usr/local/Cellar/pcre/8.36/include"</span> --with-luajit --without-http_redis2_module --with-ld-opt=<span class="string">"-L/usr/local/Cellar/pcre/8.36/lib"</span> --with-openssl=<span class="string">"bundle/openssl-1.0.2d"</span> -j2</span><br></pre></td></tr></table></figure><p>过程中遇到三个问题：</p><blockquote><ol><li>pcre的路径要找对；</li><li>Xcode如果装了多个版本，需要使用sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer选择到最新的版本</li><li>openssl，下了最新的1.0.2e的源码不行，换成1.0.2d就可以了，不知为什么</li></ol></blockquote></li><li><p>执行make和sudo make install</p><h2 id="二、HelloWorld"><a href="#二、HelloWorld" class="headerlink" title="二、HelloWorld"></a>二、HelloWorld</h2></li><li><p>创建工作目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~&#x2F;work</span><br><span class="line">cd ~&#x2F;work</span><br><span class="line">mkdir logs&#x2F; conf&#x2F;</span><br></pre></td></tr></table></figure></li><li><p>创建conf/nginx.conf</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">worker_processes  1;</span><br><span class="line">error_log logs&#x2F;error.log;</span><br><span class="line">events &#123;</span><br><span class="line">    worker_connections 1024;</span><br><span class="line">&#125;</span><br><span class="line">http &#123;</span><br><span class="line">    server &#123;</span><br><span class="line">        listen 8080;</span><br><span class="line">        location &#x2F; &#123;</span><br><span class="line">            default_type text&#x2F;html;</span><br><span class="line">            content_by_lua &#39;</span><br><span class="line">                ngx.say(&quot;&lt;p&gt;hello, world&lt;&#x2F;p&gt;&quot;)</span><br><span class="line">            &#39;;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>启动nginx</p><ul><li>设置nginx的目录到环境变量中 PATH=/opt/openresty/nginx/sbin:$PATH export PATH</li><li>启动nginx，在work目录下执行 nginx -p <code>pwd</code>/ -c conf/nginx.conf</li></ul></li><li><p>验证 curl <a href="http://localhost:8080/" target="_blank" rel="noopener">http://localhost:8080/</a></p><ul><li>输出 <code>&lt;p&gt;hello, world&lt;/p&gt;</code></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><ul><li>下载源码包，解压，并进入到解压目录</li><li>执行下面的命令编译<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/opt/openresty --with-cc-opt=<span class="string">"-I/usr/local/Cellar/pcre/8.36/include"</span> --with-luajit --without-http_redis2_module --with-ld-opt=<span class="string">"-L/usr/local/Cellar/pcre/8.36/lib"</span> --with-openssl=<span class="string">"bundle/openssl-1.0.2d"</span> -j2</span><br></pre></td></tr></table></figure><a id="more"></a></li></ul><p>过程中遇到三个问题：</p><blockquote><ol><li>pcre的路径要找对；</li><li>Xcode如果装了多个版本，需要使用sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer选择到最新的版本</li><li>openssl，下了最新的1.0.2e的源码不行，换成1.0.2d就可以了，不知为什么</li></ol></blockquote><ul><li>执行make和sudo make install<h2 id="二、HelloWorld"><a href="#二、HelloWorld" class="headerlink" title="二、HelloWorld"></a>二、HelloWorld</h2></li><li>创建工作目录<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~&#x2F;work</span><br><span class="line">cd ~&#x2F;work</span><br><span class="line">mkdir logs&#x2F; conf&#x2F;</span><br></pre></td></tr></table></figure></li><li>创建conf/nginx.conf<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">worker_processes  1;</span><br><span class="line">error_log logs&#x2F;error.log;</span><br><span class="line">events &#123;</span><br><span class="line">    worker_connections 1024;</span><br><span class="line">&#125;</span><br><span class="line">http &#123;</span><br><span class="line">    server &#123;</span><br><span class="line">        listen 8080;</span><br><span class="line">        location &#x2F; &#123;</span><br><span class="line">            default_type text&#x2F;html;</span><br><span class="line">            content_by_lua &#39;</span><br><span class="line">                ngx.say(&quot;&lt;p&gt;hello, world&lt;&#x2F;p&gt;&quot;)</span><br><span class="line">            &#39;;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>启动nginx<ul><li>设置nginx的目录到环境变量中 PATH=/opt/openresty/nginx/sbin:$PATH export PATH</li><li>启动nginx，在work目录下执行 nginx -p <code>pwd</code>/ -c conf/nginx.conf</li></ul></li><li>验证 curl <a href="http://localhost:8080/" target="_blank" rel="noopener">http://localhost:8080/</a><ul><li>输出 <code>&lt;p&gt;hello, world&lt;/p&gt;</code></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;一、安装&quot;&gt;&lt;a href=&quot;#一、安装&quot; class=&quot;headerlink&quot; title=&quot;一、安装&quot;&gt;&lt;/a&gt;一、安装&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;下载源码包，解压，并进入到解压目录&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;执行下面的命令编译&lt;/p&gt;
-&lt;fig
-      
+      &lt;h2 id=&quot;一、安装&quot;&gt;&lt;a href=&quot;#一、安装&quot; class=&quot;headerlink&quot; title=&quot;一、安装&quot;&gt;&lt;/a&gt;一、安装&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;下载源码包，解压，并进入到解压目录&lt;/li&gt;
+&lt;li&gt;执行下面的命令编译&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./configure --prefix=/opt/openresty --with-cc-opt=&lt;span class=&quot;string&quot;&gt;&quot;-I/usr/local/Cellar/pcre/8.36/include&quot;&lt;/span&gt; --with-luajit --without-http_redis2_module --with-ld-opt=&lt;span class=&quot;string&quot;&gt;&quot;-L/usr/local/Cellar/pcre/8.36/lib&quot;&lt;/span&gt; --with-openssl=&lt;span class=&quot;string&quot;&gt;&quot;bundle/openssl-1.0.2d&quot;&lt;/span&gt; -j2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
     
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+    
+      <category term="OpenRestry" scheme="http://yoursite.com/tags/OpenRestry/"/>
+    
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2015/12/04/hello-world/"/>
+    <id>http://yoursite.com/2015/12/04/hello-world/</id>
+    <published>2015-12-04T05:44:00.000Z</published>
+    <updated>2020-05-26T11:31:40.511Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
