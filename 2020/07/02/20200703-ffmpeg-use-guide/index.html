@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.onlyfew.cn","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="FFMPEG基础介绍&#x2F;&#x2F;todo FFMPEG命令备忘 将MP4转为m3u8，16秒为一个片段1ffmpeg -i .&#x2F;20200701.mp4 -c:v libx264 -hls_time 16 -hls_list_size 0 -c:a aac -strict -2 -f hls .&#x2F;20200701.m3u8">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【技术】FFMPEG命令备忘">
+<meta property="og:url" content="https://blog.onlyfew.cn/2020/07/02/20200703-ffmpeg-use-guide/index.html">
+<meta property="og:site_name" content="支离书&#39;s Blog">
+<meta property="og:description" content="FFMPEG基础介绍&#x2F;&#x2F;todo FFMPEG命令备忘 将MP4转为m3u8，16秒为一个片段1ffmpeg -i .&#x2F;20200701.mp4 -c:v libx264 -hls_time 16 -hls_list_size 0 -c:a aac -strict -2 -f hls .&#x2F;20200701.m3u8">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-07-02T21:21:00.000Z">
+<meta property="article:modified_time" content="2020-08-26T06:33:04.037Z">
+<meta property="article:author" content="支离书">
+<meta property="article:tag" content="技术">
+<meta property="article:tag" content="FFMPEG">
+<meta property="article:tag" content="音视频">
+<meta property="article:tag" content="使用指南">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://blog.onlyfew.cn/2020/07/02/20200703-ffmpeg-use-guide/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>【技术】FFMPEG命令备忘 | 支离书's Blog</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?029fe54e546a0b0a07ce44d0f05b3b73";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="支离书's Blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">支离书's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">输出倒逼输入，赚钱治愈矫情</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.onlyfew.cn/2020/07/02/20200703-ffmpeg-use-guide/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="支离书">
+      <meta itemprop="description" content="持续高效能成长">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="支离书's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【技术】FFMPEG命令备忘
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-07-02 21:21:00" itemprop="dateCreated datePublished" datetime="2020-07-02T21:21:00+00:00">2020-07-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-08-26 06:33:04" itemprop="dateModified" datetime="2020-08-26T06:33:04+00:00">2020-08-26</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="FFMPEG基础介绍"><a href="#FFMPEG基础介绍" class="headerlink" title="FFMPEG基础介绍"></a>FFMPEG基础介绍</h2><p>//todo</p>
+<h2 id="FFMPEG命令备忘"><a href="#FFMPEG命令备忘" class="headerlink" title="FFMPEG命令备忘"></a>FFMPEG命令备忘</h2><ul>
+<li>将MP4转为m3u8，16秒为一个片段<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i .&#x2F;20200701.mp4 -c:v libx264 -hls_time 16 -hls_list_size 0 -c:a aac -strict -2 -f hls .&#x2F;20200701.m3u8</span><br></pre></td></tr></table></figure>
+<a id="more"></a></li>
+<li>下载m3u8并合成为mp4<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i &quot;https:&#x2F;&#x2F;yimiyuedu-online.oss-cn-beijing.aliyuncs.com&#x2F;teacher&#x2F;a4841c01604a8efc872f4d9040bca45e_121220554827893760.m3u8&quot; -vcodec copy -acodec copy -absf aac_adtstoasc .&#x2F;100604.mp4</span><br></pre></td></tr></table></figure></li>
+<li>下载m3u8只保留音频aac<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i &quot;https:&#x2F;&#x2F;yimiyuedu-online.oss-cn-beijing.aliyuncs.com&#x2F;teacher&#x2F;a4841c01604a8efc872f4d9040bca45e_121220554827893760.m3u8&quot; -c:a copy -vn .&#x2F;b.aac</span><br></pre></td></tr></table></figure></li>
+<li>将aac格式转换为wav格式<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i b.aac c.wav</span><br></pre></td></tr></table></figure></li>
+<li>剪切指定时间段的音频单独保存，-ss为起始时间，-t为持续多长时间 -to代表截止时间<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -ss 00:26:00 -t 00:02:00 -i c.wav d.wav</span><br></pre></td></tr></table></figure></li>
+<li>从指定mp4视频中截取3段并拼接成一段mp4<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#先剪切出三端</span><br><span class="line">ffmpeg  -i .&#x2F;20200630.mp4 -vcodec copy -acodec copy -ss 04:20:30 -to 04:22:00 .&#x2F;20200630-1.mp4</span><br><span class="line">ffmpeg  -i .&#x2F;20200630.mp4 -vcodec copy -acodec copy -ss 04:23:40 -to 04:33:00 .&#x2F;20200630-2.mp4</span><br><span class="line">ffmpeg  -i .&#x2F;20200630.mp4 -vcodec copy -acodec copy -ss 04:35:00 -to 04:37:22 .&#x2F;20200630-3.mp4</span><br><span class="line">#将三段转换为ts片段</span><br><span class="line">ffmpeg -i .&#x2F;20200630-1.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts .&#x2F;20200630-1.ts</span><br><span class="line">ffmpeg -i .&#x2F;20200630-2.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts .&#x2F;20200630-2.ts</span><br><span class="line">ffmpeg -i .&#x2F;20200630-3.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts .&#x2F;20200630-3.ts</span><br><span class="line">#将片段拼接为视频</span><br><span class="line">ffmpeg -i &quot;concat:20200630-1.ts|20200630-2.ts|20200630-3.ts&quot; -c copy -bsf:a aac_adtstoasc -movflags +faststart 20200630-cuiyong.mp4</span><br></pre></td></tr></table></figure></li>
+<li></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/uploads/wechat-qcode.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">微信公众号</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS订阅</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag"># 技术</a>
+              <a href="/tags/FFMPEG/" rel="tag"># FFMPEG</a>
+              <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91/" rel="tag"># 音视频</a>
+              <a href="/tags/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" rel="tag"># 使用指南</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/06/02/getit-how-to-solve-problem/" rel="prev" title="【认知】《罗胖：如何成为解决问题的高手》笔记">
+      <i class="fa fa-chevron-left"></i> 【认知】《罗胖：如何成为解决问题的高手》笔记
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/08/06/2020-08-06-lixigui-edu/" rel="next" title="【教育】面向2035的教育-李希贵专题报告">
+      【教育】面向2035的教育-李希贵专题报告 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#FFMPEG基础介绍"><span class="nav-number">1.</span> <span class="nav-text">FFMPEG基础介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FFMPEG命令备忘"><span class="nav-number">2.</span> <span class="nav-text">FFMPEG命令备忘</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="支离书"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">支离书</p>
+  <div class="site-description" itemprop="description">持续高效能成长</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/onlyfew" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;onlyfew" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:onlyfew@gmail.com" title="E-Mail → mailto:onlyfew@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/onlyfew" title="微博 → https:&#x2F;&#x2F;weibo.com&#x2F;onlyfew" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>微博</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.zsxq.com/Iiy3NZB" title="知识星球 → https:&#x2F;&#x2F;t.zsxq.com&#x2F;Iiy3NZB" rel="noopener" target="_blank"><i class="fa fa-globe fa-fw"></i>知识星球</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">支离书</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.onlyfew.cn","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="说明 本文为(【SEO】01-网站如何做可控的SEO？)[https:&#x2F;&#x2F;blog.onlyfew.cn&#x2F;2020&#x2F;05&#x2F;31&#x2F;guoping-seo-01&#x2F;] 中对应的案例，对照阅读效果更好。 案例来源为张国平老师的SEO课程，关注公众号“支离书”后台回复“SEO课程”可免费获得课程。案例正文1、现象：到元旦跌到了高峰期的1&#x2F;42、经验：节假日最多跌一半的流量，不会跌到1&#x2F;43、初步分析原因：1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【案例】利用SEO公式抽丝剥茧的分析网站流量下跌的原因">
+<meta property="og:url" content="https://blog.onlyfew.cn/2020/05/31/guoping-seo-eg-01/index.html">
+<meta property="og:site_name" content="支离书&#39;s Blog">
+<meta property="og:description" content="说明 本文为(【SEO】01-网站如何做可控的SEO？)[https:&#x2F;&#x2F;blog.onlyfew.cn&#x2F;2020&#x2F;05&#x2F;31&#x2F;guoping-seo-01&#x2F;] 中对应的案例，对照阅读效果更好。 案例来源为张国平老师的SEO课程，关注公众号“支离书”后台回复“SEO课程”可免费获得课程。案例正文1、现象：到元旦跌到了高峰期的1&#x2F;42、经验：节假日最多跌一半的流量，不会跌到1&#x2F;43、初步分析原因：1">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531202824.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531203223.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531203459.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531203836.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531204255.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531205459.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531205559.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531210134.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200531210213.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200602073903.png">
+<meta property="og:image" content="http://image.onlyfew.cn/bitcron/20200602074648.png">
+<meta property="article:published_time" content="2020-05-31T21:21:00.000Z">
+<meta property="article:modified_time" content="2020-08-26T06:33:04.045Z">
+<meta property="article:author" content="支离书">
+<meta property="article:tag" content="技术">
+<meta property="article:tag" content="SEO">
+<meta property="article:tag" content="运营">
+<meta property="article:tag" content="案例">
+<meta property="article:tag" content="运维">
+<meta property="article:tag" content="数据">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://image.onlyfew.cn/bitcron/20200531202824.png">
+
+<link rel="canonical" href="https://blog.onlyfew.cn/2020/05/31/guoping-seo-eg-01/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>【案例】利用SEO公式抽丝剥茧的分析网站流量下跌的原因 | 支离书's Blog</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?029fe54e546a0b0a07ce44d0f05b3b73";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="支离书's Blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">支离书's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">输出倒逼输入，赚钱治愈矫情</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.onlyfew.cn/2020/05/31/guoping-seo-eg-01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="支离书">
+      <meta itemprop="description" content="持续高效能成长">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="支离书's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【案例】利用SEO公式抽丝剥茧的分析网站流量下跌的原因
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-05-31 21:21:00" itemprop="dateCreated datePublished" datetime="2020-05-31T21:21:00+00:00">2020-05-31</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-08-26 06:33:04" itemprop="dateModified" datetime="2020-08-26T06:33:04+00:00">2020-08-26</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/SEO/" itemprop="url" rel="index"><span itemprop="name">SEO</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ol>
+<li>本文为(【SEO】01-网站如何做可控的SEO？)[<a href="https://blog.onlyfew.cn/2020/05/31/guoping-seo-01/]">https://blog.onlyfew.cn/2020/05/31/guoping-seo-01/]</a> 中对应的案例，对照阅读效果更好。</li>
+<li>案例来源为张国平老师的SEO课程，关注公众号“支离书”后台回复“SEO课程”可免费获得课程。<h2 id="案例正文"><a href="#案例正文" class="headerlink" title="案例正文"></a>案例正文</h2><img src="http://image.onlyfew.cn/bitcron/20200531202824.png" alt=""><br>1、现象：到元旦跌到了高峰期的1/4<br>2、经验：节假日最多跌一半的流量，不会跌到1/4<br>3、初步分析原因：<br>1）查看收录量：<br><img src="http://image.onlyfew.cn/bitcron/20200531203223.png" alt=""></li>
+</ol>
+<ul>
+<li>现象：收录量确实跌了</li>
+<li>经验：收录量的绝对值没什么意义（百度和谷歌均是），要看趋势<br>2）查看排名<br><img src="http://image.onlyfew.cn/bitcron/20200531203459.png" alt=""></li>
+<li>现象：排名没有跌，反而有些涨了</li>
+<li>经验：排名也要想办法数据化<br>3）查看点击率<br><img src="http://image.onlyfew.cn/bitcron/20200531203836.png" alt=""></li>
+<li>现象：点击率没有变化</li>
+<li>经验：点击率 = 点击次数 / 展示次数</li>
+<li>说明：展示次数包括在每一页的展示，不管是排在第几页，只要用户点到了对应页，展示出来的都会计数<br>根据公式1可知，流量跌的原因是收录量跌导致的。<br>再根据公式2分析，因为节假日期间页面内容没做任何变化，所以可以肯定是搜索引擎抓取量降低导致的。<br>4、用数据验证原因<br><img src="http://image.onlyfew.cn/bitcron/20200531204255.png" alt=""><br>经验证，抓取量确实跌了<br>5、那么抓取量为什么跌了？<br>经验：爬虫抓取可以在服务器记录日志，通过分析日志可进行进一步分析<br>经验：<strong>利用对比法找原因</strong>，对比抓取量正常时候的服务器日志和抓取量异常时的服务器日志<br><img src="http://image.onlyfew.cn/bitcron/20200531205459.png" alt="正常时的数据：爬虫访问5次抓取25000多个页面"><br><img src="http://image.onlyfew.cn/bitcron/20200531205559.png" alt="异常时的数据：爬虫访问34次仅抓取4645个页面"><br>经验：上图中每一行是一个爬虫，所有行累加即为所有的抓取量<br>此步结论：总抓取量的下跌是因为单个爬虫的抓取下跌导致的<br>6、继续分析，为什么单个爬虫的抓取下跌了呢？<br>经验：<strong>继续利用细分法</strong>，分析单个爬虫的正常时和异常时的日志<br><img src="http://image.onlyfew.cn/bitcron/20200531210134.png" alt="正常时的数据，每秒钟可以访问多个页面"><br><img src="http://image.onlyfew.cn/bitcron/20200531210213.png" alt="异常时的数据，访问频率极大降低，中间间隔极大"><br>此步结论：单个爬虫的抓取确实下跌了，原因是单个爬虫的抓取间隔变大了许多倍，单位时间内抓取的页面数量变少了很多<br>7、为什么单个爬虫的爬取间隔变大了许多倍呢？<br>这个问题，数据层面可分析的就没有了，要解答这个问题需要依靠经验，下面是几个可能导致这种情况案例：<br><img src="http://image.onlyfew.cn/bitcron/20200602073903.png" alt=""></li>
+<li>网站是细分行业头部网站，为了防止竞争对手爬取资源，业务部门上线了防采集系统（5分钟访问1千次标记异常），导致爬虫也中招了；</li>
+<li>技术部门为了防止网站被DDOS，设置了防火墙规则（比如10秒钟100个页面），导致爬虫也中招了；</li>
+<li>网站连续返回2个及以上的状态码（比如404之后301再200），会导致爬虫不爬了，爬虫的规则是301跳转一次是ok的，再多一次也不会爬了；</li>
+<li>服务器升级，windows server 2003升级到windows server 2008后网卡自动变为半双工状态，导致请求在网卡排队，速度变慢；<br>老师在遇到上面情况时立即从上面案例的经验去排查，结果都不是上面的原因，然后叫相关同事开会（主要是开发和运维），然后发现运维做了一个服务器虚拟化的改动，但是虚拟化之后的配置非最优状态，即将物理机虚拟化3台虚拟机后但是共用一块硬盘，硬盘转速不变的同时要供应3个人同时访问，导致访问速度变得很慢，性能变差。<br>8、找到上面的原因解决后，流量立即上涨了：<br><img src="http://image.onlyfew.cn/bitcron/20200602074648.png" alt=""></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/uploads/wechat-qcode.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">微信公众号</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS订阅</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag"># 技术</a>
+              <a href="/tags/SEO/" rel="tag"># SEO</a>
+              <a href="/tags/%E8%BF%90%E8%90%A5/" rel="tag"># 运营</a>
+              <a href="/tags/%E6%A1%88%E4%BE%8B/" rel="tag"># 案例</a>
+              <a href="/tags/%E8%BF%90%E7%BB%B4/" rel="tag"># 运维</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE/" rel="tag"># 数据</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/05/31/lixiaolai-qinian-01/" rel="prev" title="【认知】李笑来直播《相约7年后》笔记">
+      <i class="fa fa-chevron-left"></i> 【认知】李笑来直播《相约7年后》笔记
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/06/02/getit-how-to-solve-problem/" rel="next" title="【认知】《罗胖：如何成为解决问题的高手》笔记">
+      【认知】《罗胖：如何成为解决问题的高手》笔记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#说明"><span class="nav-number">1.</span> <span class="nav-text">说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#案例正文"><span class="nav-number">2.</span> <span class="nav-text">案例正文</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="支离书"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">支离书</p>
+  <div class="site-description" itemprop="description">持续高效能成长</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/onlyfew" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;onlyfew" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:onlyfew@gmail.com" title="E-Mail → mailto:onlyfew@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/onlyfew" title="微博 → https:&#x2F;&#x2F;weibo.com&#x2F;onlyfew" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>微博</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.zsxq.com/Iiy3NZB" title="知识星球 → https:&#x2F;&#x2F;t.zsxq.com&#x2F;Iiy3NZB" rel="noopener" target="_blank"><i class="fa fa-globe fa-fw"></i>知识星球</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">支离书</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
